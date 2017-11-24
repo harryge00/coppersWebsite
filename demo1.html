@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no" /> 
+	<link rel="stylesheet" href="./boot/css/bootstrap.min.css">
+	<link rel="stylesheet" href="./css/demo1.css">
+  <link rel="stylesheet" href="./swiper/swiper.min.css">
+  <link rel="stylesheet" href="./swiper/animate.min.css">
+  <style>
+    .ani a{
+      width:80px;
+      float:left;
+      display:block;
+      height:50px;
+      border:1px solid red;
+    }
+    /*.swiper-scrollbar{
+      height:1px;
+    }*/
+  </style>
+</head>
+<body>
+  <div class="swiper-container">
+    <div class="ani swiper-wrapper">
+      <a href="#" class="swiper-slide">床品</a>
+      <a href="#" class="swiper-slide">沙发</a>
+      <a href="#" class="swiper-slide">板凳</a>
+      <a href="#" class="swiper-slide">柜架</a>
+      <a href="#" class="swiper-slide">桌子</a>
+    </div>
+    <div class="swiper-scrollbar"></div>
+  </div>
+  <script src="./js/jquery.js"></script>
+  <script src="./boot/js/bootstrap.min.js"></script>
+  <script src="./swiper/swiper.min.js"></script>
+  <script src="./swiper/swiper.animate.min.js"></script>
+  <script>
+    var mySwiper = new Swiper('.swiper-container',{
+        slidesPerView : 5,
+       scrollbar:'.swiper-scrollbar',
+       centeredSlides: true,
+       scrollbarSnapOnRelease : true ,
+    }); 
+  </script>
+</body>
+</html>

@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html> 
+<head>
+	<title>家居响应式首页</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no" /> 
+  <!-- bootstrap css样式 -->
+	<link rel="stylesheet" href="./boot/css/bootstrap.min.css">
+  <!-- index css样式 -->
+	<link rel="stylesheet" href="./css/index1.css">
+  <!-- swiper轮播 -->
+  <link rel="stylesheet" href="./swiper/swiper.min.css">
+  <!-- swiper动画 -->
+  <link rel="stylesheet" href="./swiper/animate.min.css">
+  <!-- h-ui css样式 -->
+	<link rel="stylesheet" href="./css/H-ui.reset.css">
+  <!-- iconfont 字体样式 -->
+   <link rel="stylesheet" href="//at.alicdn.com/t/font_427231_wrso78fvsleopqfr.css">
+  <!-- animate动画效果 -->
+   <link rel="stylesheet" href="css/animate.css"/>
+   <script src="https://cdn.bootcss.com/wow/1.1.2/wow.js"></script>
+</head> 
+<body> 
+  <!-- 头部样式 -->
+  <nav id="navbar" class="navbar navbar-default met-nav navbar-fixed-top navbar-shadow animated fadeInDown">
+    <div class="container">   
+      <div class="row">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle hamburger hamburger-close collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="hamburger-bar"></span>
+          </button>
+          <a href="#" class="nav-brand navbar-logo vertical-align">
+            <div class="vertical-align-middle ">
+              <img src="./img/bz.png" alt="">
+            </div>
+          </a>
+        </div>
+        <div class="collapse navbar-collapse navbar-collapse-toolbar" id="bs-example-navbar-collapse">
+          <ul class="nav navbar-nav navbar-right navlist">
+            <li><a href="./index1.html" title="首页" class="link active">首页</a></li>
+
+            <li  class="margin-left-30" ><a href="./brand.html" title="品牌故事" class="link animation-zoomIn">品牌故事</a></li>
+
+            <li class="margin-left-30"><a href="./product.html"  title="产品中心" class="link animation-zoomIn">产品中心</a></li>
+
+             <li class="dropdown margin-left-30">
+            <a 
+              class="dropdown-toggle link  animation-zoomIn"  
+              data-toggle="dropdown" 
+              data-hover="dropdown"
+              href="http://www.tmall.com" 
+              title="网上商城"
+            >网上商城 <i class="fa fa-angle-down ul1fa">&#xe60b;</i></a>
+            <ul class="dropdown-menu dropdown-menu-right ul1">
+              <li class="animation-fade animation-delay-"><a href="http://www.tmall.com" class=" animation-fade " target='_blank' title="天猫旗舰店">天猫旗舰店</a></li>  
+              <li class="animation-fade animation-delay-"><a href="http://www.jd.com" class=" animation-fade " target='_blank' title="京东旗舰店">京东旗舰店</a></li> 
+            </ul>
+          </li>
+
+            <li class="margin-left-30"><a href="./news.html"  title="行业新闻" class="link  animation-zoomIn">行业新闻</a></li>
+
+           <li class="dropdown margin-left-30">
+            <a 
+              class="dropdown-toggle link  animation-zoomIn"
+              href="./league.html" 
+              title="招商加盟"
+            >招商加盟 <i class="fa fa-angle-down ul2fa">&#xe60b;</i></a>
+            <ul class="dropdown-menu dropdown-menu-right ul2"  >
+
+              <li class='visible-xs'><a href="./league.html" target='_blank' title="全部" class="">全部</a></li>
+
+              <li class="animation-fade animation-delay-"><a href="./leaguead.html" class=" animation-fade "  title="加盟优势">加盟优势</a></li> 
+
+              <li class="animation-fade animation-delay-"><a href="./leaguecd.html" class=" animation-fade "  title="加盟条件">加盟条件</a></li> 
+
+              <li class="animation-fade animation-delay-"><a href="./leaguefw.html" class=" animation-fade "  title="加盟流程">加盟流程</a></li> 
+            </ul>
+          </li>
+
+            <li class="margin-left-30"><a href="./contact.html"  title="联系我们" class="link  animation-zoomIn">联系我们</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- swiper 轮播页面 -->
+  <div class="swiper-container" id="swiper-container1">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img src="./img/switch2.png"></div>
+      <div class="swiper-slide"><img src="./img/switch1.png"></div>
+    </div>
+    <div class="swiper-button-prev "><i>&#xe606;</i></div>
+    <div class="swiper-button-next "><i>&#xe607;</i></div>
+  </div>
+  <!-- 产品展示页面 -->
+  <div class="met-index-product met-index-body">
+    <div class="container">
+      <h3 class="product-show animation-fade">产品展示</h3>
+      <p class="desc animation-0">——product——</p>
+      <div class="product-intro animation-fadeInUp">
+        <div id="swiper-container4" class="swiper-container swiper-navtab swiper-container-horizontal">
+          <ul class="nav nav-tabs">
+            <li class="swiper-slide swiper-slide-active"><a href="" title="床品">床品</a></li>
+            <li class="swiper-slide swiper-slide-next"><a href="" title="沙发">沙发</a></li>
+            <li class="swiper-slide"><a href="" title="椅凳">椅凳</a></li>
+            <li class="swiper-slide"><a href="" title="柜架">柜架</a></li>
+            <li class="swiper-slide"><a href="" title="桌子">桌子</a></li>
+          </ul>
+          <div class="swiper-scrollbar" style="display: none;">
+            <div class="swiper-scrollbar-drag" style="width:0px;"></div>
+          </div>
+        </div>
+      </div>
+      <div class="ani swiper-index-img">
+        <div class="swiper-container " id="swiper-container3">
+          <div class="swiper-wrapper ">
+            <div class="swiper-slide  wow1" data-wow-duration="1s" data-wow-delay="1s">
+              <a href="" class="slide-a1"><img src="./img/thumb.jpg "></a> 
+              <h4 class="slide-h4">
+              <a href="" class="slide-a2">樱桃木黑胡桃纯实木沙发</a>
+              </h4>
+            </div>
+            <div class="swiper-slide wow1" data-wow-duration="1s" data-wow-delay="1s">
+              <a href=""><img src="./img/thumb2.jpg "></a> 
+              <h4 class="slide-h4">
+              <a href="" class="slide-a2">黑胡桃纯实木极简电视柜</a>
+              </h4>
+            </div>
+            <div class="swiper-slide wow1" data-wow-duration="1s" data-wow-delay="1s">
+              <a href=""><img src="./img/thumb3.jpg "></a> 
+             <h4 class="slide-h4">
+              <a href="" class="slide-a2">黑胡桃纯实木单人沙发扶手椅</a>
+              </h4>
+            </div>
+            <div class="swiper-slide wow1" data-wow-duration="1s" data-wow-delay="1s">
+              <a href=""><img src="./img/thumb4.jpg "></a>
+              <h4 class="slide-h4">
+              <a href="" class="slide-a2">明扶手椅｜黑胡桃纯实木</a>
+              </h4>
+            </div>
+            <div class="swiper-slide">
+              <a href=""><img src="./img/thumb5.jpg"></a> 
+              <h4 class="slide-h4">
+              <a href="" class="slide-a2">四方斗柜 极简实木阶梯斗橱</a>
+              </h4>
+            </div>
+          </div>
+          <div class="swiper-button-prev visible-lg-block visible-md-block wow1" data-wow-duration="1s" data-wow-delay="1s"></div>
+          <div class="swiper-button-next visible-lg-block visible-md-block wow1" data-wow-duration="1s" data-wow-delay="1s"></div>
+        </div>
+      </div>
+      <a href="" class="index_more visible-lg-block visible-md-block"></a>
+      <a href="" class="more  visible-xs-block visible-sm-block">MORE</a>
+    </div>
+  </div>
+  <!-- 关于我们 -->
+  <div class="met-index-about met-index-body">
+    <div class="container">
+      <div class="about-img col-sm-12 col-md-4 col-lg-4 wow5 animation-zoomIn" >
+        <img src="./img/b2.jpg" />
+      </div>
+      <div class="col-sm-12 col-md-8 col-lg-8 about-cont">
+        <h3 class="wow6">关于我们</h3>
+        <p class="wow7 desc animation-0">About us</p>
+        <p class="wow9 met-editor animation-0">
+         实木家具公司于1999年创建于中国长沙，这十多年来一直致力于实木家具的生产的销售，销售主要包括实木座椅/沙发系列、、卧室实木床柜系列、家具实木凳椅产品系列等约100个产品。为了让更多的顾客成为宜家的品牌布道者，实木家具公司的一个重要策略就是销售梦想而不是产品。为了做到这一点，实木家具公司不仅提供广泛、设计精美、实用、低价的产品，而且
+        </p>
+        <a href="" class="more" title="品牌故事" target="_self"></a>
+      </div>
+    </div>
+  </div>
+  <!-- 新闻资讯 -->
+  <div class="met-index-news met-index-body">
+    <div class="container">
+      <h3 class="wow2" data-wow-duration="2.5s">新闻资讯</h3>
+      <p class="desc wow3 animation-0">news</p>
+      <ul class="blocks">
+        <li class="wow10 animation-1">
+          <div class="media">
+            <div class="media-left">
+              <a><img src="./img/n3.jpg" /></a>
+            </div>
+            <div class="media-body">
+              <h4 class="media-heading">
+                <span class="newstime">2017-09-15</span><a>实木家具到底有哪些</a>
+              </h4>
+              <p class="des">正在打算购买家具的朋友可能有这样的经历，面对淋漓满目的家具，面对A品牌说实木家具，B品牌说纯实木家具.....
+              </p>
+            </div>
+          </div>
+        </li>
+        <li class="wow11 animation-2">
+          <div class="media">
+            <div class="media-left">
+              <a><img src="./img/n2.png" /></a>
+            </div>
+            <div class="media-body">
+              <h4 class="media-heading">
+                <span class="newstime">2017-07-18</span><a>实木家具开裂原因 分析及后期保养</a>
+              </h4>
+              <p class="des">目前很多家庭喜欢购买实木制品，因为与人造板相比，实木更加天然与环保。但是在秋冬干燥季节，木制品开裂经.....
+              </p>
+            </div>
+          </div>
+        </li>
+        <li class="wow10 animation-1" >
+          <div class="media">
+            <div class="media-left">
+              <a><img src="./img/n5.jpg" /></a>
+            </div>
+            <div class="media-body">
+              <h4 class="media-heading">
+                <span class="newstime">2017-04-26</span><a> 板材量大幅增加 实木家具成内销市场的“宠儿”</a>
+              </h4>
+              <p class="des">近日，记者了解到，2016年台州市板材进口实现量价齐升，均创历史新高。台州出入境检验检疫局玉环办事处.....
+              </p>
+            </div>
+          </div>
+        </li>
+        <li class="wow11 animation-2">
+          <div class="media">
+            <div class="media-left">
+              <a><img src="./img/n6.jpg" /></a>
+            </div>
+            <div class="media-body">
+              <h4 class="media-heading">
+                <span class="newstime">2017-06-22</span><a> 实木家具成为卖场“新主角”</a>
+              </h4>
+              <p class="des">近来我省两家有一定品牌影响力的板材家具工厂传来倒闭消息，业内人士为之哗然，纷纷对这一现象进行了分析。.....
+              </p>
+            </div>
+          </div>
+        </li>
+      </ul>
+      <a href="" class="more" title="行业新闻" target="_self"></a>
+    </div>
+  </div>
+  <!-- 底部图标 -->
+  <div class="met-links text-center">
+    <div class="container">
+      <ol class="breadcrumb">
+        <li>友情链接 :</li>
+        <li><a href="http://www.jd.com" title="" target="_blank" class="link_img"><img src="img/1505469778.png"></a></li>
+        <li><a href="http://www.tmall.com" title="" target="_blank" class="link_img"><img src="img/1505470231.png"></a></li>
+        <li><a href="http://" title="" target="_blank" class="link_img"><img src="img/1505469729.png"></a></li>
+      </ol>
+    </div>
+  </div>
+  <!-- 底部 -->
+  <footer>
+      <div class="container text-center">
+        <p>实木家具公司 版权所有 2008-2014 湘ICP备8888888 </p>
+        <p>本页面内容为网站演示数据，前台页面内容都可以在后台修改。</p>
+        <div class="powered_by_metinfo">Powered by <a href="http://www.MetInfo.cn/#copyright" target="_blank" title="企业网站管理系统">MetInfo</a> 5.3.19</div>
+      </div>
+  </footer>
+  <!-- 锚点 -->
+  <a class="maodian" href="#"><span class="icon">&#xe644;</span></a>  
+<script src="./js/jquery.js"></script>
+<script src="./boot/js/bootstrap.min.js"></script>
+<script src="./swiper/swiper.min.js"></script>
+<script src="./swiper/swiper.animate.min.js"></script>
+<script>
+
+//导航条鼠标事件
+$(".navbar-nav").children("li:nth-child(4)").mouseover(function(){
+   $(".ul1").css("display","block");
+   $(".ul1fa").css("transform","rotate(180deg)");
+   $(".ul1fa").css("transform-origin","10px 10px");
+   $(".ul1fa").css("transition","1s");
+})
+$(".navbar-nav").children("li:nth-child(4)").mouseout(function(){
+   $(".ul1").css("display","none");
+   $(".ul1fa").css("transform","rotate(0deg)");
+   $(".ul1fa").css("transition","1s");
+})
+$(".navbar-nav").children("li:nth-child(6)").mouseover(function(){
+   $(".ul2").css("display","block");
+   $(".ul2fa").css("transform","rotate(180deg)");
+    $(".ul2fa").css("transform-origin","10px 10px");
+   $(".ul2fa").css("transition","1s");
+})
+$(".navbar-nav").children("li:nth-child(6)").mouseout(function(){
+   $(".ul2").css("display","none");
+   $(".ul2fa").css("transform","rotate(0deg)");
+   $(".ul2fa").css("transition","1s");
+})
+$(".navbar-nav").children("li:nth-child(4)").click(function(){
+   $(".link").css("background","transparent");
+})
+$(".navbar-nav").children("li:nth-child(6)").click(function(){
+   $(".link").css("background","transparent");
+})
+//页面滚动事件
+$(function () {             
+  //绑定滚动条事件 
+  $(window).bind("scroll", function () { 
+      var sTop = $(window).scrollTop(); 
+      var sTop = parseInt(sTop); 
+      if (sTop >= 50) { 
+        $(".navbar").slideDown(); 
+        $(".navbar-shadow").css("background-color"," rgba(0, 0, 0, 0.8)");
+      }else{
+        $(".navbar-shadow").css("background-color"," transparent");
+      }
+      if (sTop >= 800) { 
+        $(".maodian").show();
+      }else{
+        $(".maodian").hide();
+      }
+  }); 
+}) 
+//第一页面swiper滑动 
+var mySwiper = new Swiper('#swiper-container1', {
+  autoplay: 5000,//可选选项，自动滑动
+  loop : true,
+  effect : 'fade',
+  fade: {
+    crossFade: true,
+  },
+  simulateTouch : false,
+  prevButton:'.swiper-button-prev',
+  nextButton:'.swiper-button-next',
+  autoplayDisableOnInteraction : false,
+});
+//第二页面swiper动画
+var mySwiper = new Swiper ('#swiper-container2', {
+  direction:'vertical',
+  autoHeight:true,
+  onInit: function(swiper){ //Swiper2.x的初始化是onFirstInit
+    swiperAnimateCache(swiper); //隐藏动画元素 
+    swiperAnimate(swiper); //初始化完成开始动画
+  }, 
+  onSlideChangeEnd: function(swiper){ 
+    swiperAnimate(swiper); //每个slide切换结束时也运行当前slide动画
+  } 
+});
+//第二页面swiper响应式
+if($(window).width() <= 990 ){
+    var mySwiper = new Swiper('#swiper-container3', {
+      slidesPerView : 2,
+      grabCursor : true,
+      slidesPerColumn : 1,
+      spaceBetween : 10,
+      loop : true,
+      prevButton:'.swiper-button-prev',
+      nextButton:'.swiper-button-next',
+    });
+  }else if($(window).width() > 990){
+    var mySwiper = new Swiper('#swiper-container3', {
+      slidesPerView : 4,
+      grabCursor : true,
+      slidesPerColumn : 1,
+      spaceBetween : 10,
+      loop : true,
+      prevButton:'.swiper-button-prev',
+      nextButton:'.swiper-button-next',
+    });
+  }
+//当窗口宽度改变时swiper页面显示数量
+$(window).resize(function(){
+  if($(window).width() <= 990 ){
+    var mySwiper = new Swiper('#swiper-container3', {
+      slidesPerView : 2,
+      grabCursor : true,
+      slidesPerColumn : 1,
+      spaceBetween : 10,
+      loop : true,
+      prevButton:'.swiper-button-prev',
+      nextButton:'.swiper-button-next',
+    });
+  }else if($(window).width() > 990){
+    var mySwiper = new Swiper('#swiper-container3', {
+      slidesPerView : 4,
+      grabCursor : true,
+      slidesPerColumn : 1,
+      spaceBetween : 10,
+      loop : true,
+      prevButton:'.swiper-button-prev',
+      nextButton:'.swiper-button-next',
+    });
+  }
+})
+
+var wow1=$('.wow1');
+
+anima('wow1','fadeInUp');
+
+
+/*动画函数*/
+    function anima(name,style){
+      name = new WOW({  
+          boxClass: name,  
+          animateClass: style,  
+          offset: 100,  
+          mobile: true,  
+          live: true  
+      });  
+      name.init();
+    };
+
+</script>
+</body>
+</html>
