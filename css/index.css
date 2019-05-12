@@ -12434,9 +12434,12 @@ strong {
   -webkit-justify-content: flex-start !important;
   justify-content: flex-start !important;
 }
+
+
 .swiper-navtab .swiper-slide {
   width: auto;
 }
+
 .swiper-navtab .swiper-container {
   z-index: 3;
 }
